@@ -176,11 +176,21 @@ i {
 }
 
 .main-pro img{
-  width: 400px;
+  width: 360px;
   height: 460px;
   padding: 20px;
-   border: 1px solid #f0f0f0;
+}
 
+.aa{
+  display: flex;
+  gap: 20px;
+   border: 1px solid #f0f0f0;
+}
+
+.aa i{
+  color: #878787;
+  font-size: 20px;
+  padding: 20px;
 }
 
 .buy-btn{

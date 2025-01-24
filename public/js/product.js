@@ -48,3 +48,8 @@ window.onclick = function (event) {
     modal3.style.display = "none";
   }
 };
+
+function changeImg(newImg) {
+  let getImg = document.getElementById("imgs");
+  getImg.src = newImg.src;
+}
